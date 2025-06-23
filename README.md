@@ -1,6 +1,6 @@
 # Accent Classifier & Summarizer
 
-This project is a web application that allows users to input a YouTube video URL, automatically download the video, extract its audio, transcribe the speech, classify the speaker's accent, and generate a summary of the content using Azure OpenAI services.
+This project is a web application that allows users to input a video URL, automatically download the video, extract its audio, transcribe the speech, classify the speaker's accent, and generate a summary of the content using Azure OpenAI services.
 
 ## Features
 
@@ -24,7 +24,7 @@ This project is a web application that allows users to input a YouTube video URL
 ## How It Works
 
 1. **User Input:**  
-   The user enters a YouTube video URL in the web interface.
+   The user enters a video URL in the web interface.
 
 2. **Video Download:**  
    The backend downloads the video using `yt_dlp`.
