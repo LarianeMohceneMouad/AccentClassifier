@@ -49,7 +49,7 @@ This project is a web application that allows users to input a video URL, automa
 ### 1. Clone the Repository
 
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/LarianeMohceneMouad/AccentClassifier.git
 cd AccentClassifier
 ```
 
@@ -63,7 +63,7 @@ pip install -r requierements.txt
 
 ### 3. Environment Variables
 
-Create a `.env` file in the project root with your Azure OpenAI API key and endpoints:
+Create a `.env` file in the project root with your Azure OpenAI API key and endpoints: - 
 
 ```
 OPENAI_API_KEY=your_openai_api_key
