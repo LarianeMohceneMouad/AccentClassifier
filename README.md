@@ -4,7 +4,7 @@ This project is a web application that allows users to input a video URL, automa
 
 ## Features
 
-- **YouTube Video Download:** Downloads the video from a provided URL.
+- **Video Download:** Downloads the video from a provided URL.
 - **Audio Extraction:** Extracts audio from the downloaded video.
 - **Speech Transcription:** Transcribes the audio using Azure OpenAI Whisper.
 - **Accent Classification:** Identifies the accent of the speaker using a pre-trained SpeechBrain model.
