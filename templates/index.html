@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accent Classifier & Summarizer</title>
+</head>
+<body>
+    <h1>Accent Classifier & Summarizer</h1>
+    <form method="post">
+        <label for="video_url">YouTube Video URL:</label>
+        <input type="text" id="video_url" name="video_url" required>
+        <button type="submit">Process</button>
+    </form>
+    {% if result %}
+        <h2>Results</h2>
+        <p><strong>Transcription:</strong> {{ result.transcription }}</p>
+        <p><strong>Accent:</strong> {{ result.accent }}</p>
+        <p><strong>Confidence Score:</strong> {{ result.score }}</p>
+        <p><strong>Summary:</strong> {{ result.summary }}</p>
+    {% endif %}
+</body>
+</html>
