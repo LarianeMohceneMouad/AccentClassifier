@@ -9,8 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()  
 api_key = os.getenv("OPENAI_API_KEY")
 
-
-
 # Function to download video from url input
 def download_video(url, save_path="."):
     ydl_opts = {
