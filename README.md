@@ -107,7 +107,7 @@ docker run -p 5000:5000 accent-classifier
 
 ## License
 
-This project is for educational purposes.
+This project is for RemWaste Application
 
 ---
 
